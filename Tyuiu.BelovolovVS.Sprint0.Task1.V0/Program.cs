@@ -11,10 +11,11 @@ namespace Tyuiu.BelovolovVS.Sprint0.Task1.V0
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World");
+            Console.ReadKey();
             string name = "Слава";
             int age = 18;
             Console.WriteLine(" Здравствуйте меня зовут " + name + " мне " + age + " лет! ");
-            Console.ReadKey();
+
         }
     }
 }
